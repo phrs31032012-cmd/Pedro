@@ -40,9 +40,22 @@
       padding: 15px;
       width: 250px;
     }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
     .preco {
       margin: 10px 0;
       font-size: 1.1em;
+    }
+    .dinheiro {
+      color: green;
+      font-weight: bold;
+    }
+    .cartao {
+      color: orange;
+      font-weight: bold;
     }
     .btn {
       display: inline-block;
@@ -67,35 +80,41 @@
 </head>
 <body>
   <header>
-    📱 Peça seu produto agora pelo WhatsApp: 
+    📱 Peça seu gás agora pelo WhatsApp: 
     <a href="https://wa.me/5531981043000" style="color: yellow; text-decoration: none;">
       31 98104-3000
     </a>
   </header>
 
-  <h2>Nossos Produtos</h2>
+  <h2>Nossos Botijões</h2>
   <h3>🔥 Promoção da Semana 🔥</h3>
 
   <div class="produtos">
+    <!-- Botijão 1 -->
     <div class="card">
-      <h3>⛽ Liquigás 13kg</h3>
-      <p class="preco">💵 Dinheiro/Pix: <b>R$ 104,99</b></p>
-      <p class="preco">💳 Cartão: <b>R$ 109,99</b></p>
+      <h3>Liquigás 13kg</h3>
+      <img src="https://i.ibb.co/ZBJxHSG/liquigas.jpg" alt="Botijão Liquigás 13kg">
+      <p class="preco">💵 Dinheiro/Pix: <span class="dinheiro">R$ 104,99</span></p>
+      <p class="preco">💳 Cartão: <span class="cartao">R$ 109,99</span></p>
       <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Liquigás%2013kg">➡️📱 Pedir agora</a>
     </div>
 
+    <!-- Botijão 2 -->
     <div class="card">
-      <h3>🔥 Supergás Brás 13kg</h3>
-      <p class="preco">💵 Dinheiro/Pix: <b>R$ 115,00</b></p>
-      <p class="preco">💳 Cartão: <b>R$ 120,00</b></p>
+      <h3>Supergás Brás 13kg</h3>
+      <img src="https://i.ibb.co/bPv6Ky5/supergas.jpg" alt="Botijão Supergás Brás 13kg">
+      <p class="preco">💵 Dinheiro/Pix: <span class="dinheiro">R$ 115,00</span></p>
+      <p class="preco">💳 Cartão: <span class="cartao">R$ 120,00</span></p>
       <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Supergás%20Brás%2013kg">➡️📱 Pedir agora</a>
     </div>
 
+    <!-- Galão de Água Ingá -->
     <div class="card">
-      <h3>💧 Galão de Água Ingá</h3>
-      <p class="preco">💵 Dinheiro/Pix: <b>R$ 14,99</b></p>
-      <p class="preco">💳 Cartão: <b>R$ 17,99</b></p>
-      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Galão%20de%20Água%20Ingá">➡️📱 Pedir agora</a>
+      <h3>Galão de Água Ingá 20L</h3>
+      <img src="https://i.ibb.co/8u4c6jN/agua-inga.jpg" alt="Galão de Água Ingá">
+      <p class="preco">💵 Dinheiro/Pix: <span class="dinheiro">R$ 14,99</span></p>
+      <p class="preco">💳 Cartão: <span class="cartao">R$ 17,99</span></p>
+      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20o%20gal%C3%A3o%20de%20%C3%A1gua%20Ing%C3%A1">➡️📱 Pedir agora</a>
     </div>
   </div>
 
