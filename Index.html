@@ -5,181 +5,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moriyah GV Gás</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
       background-color: #f0f8ff;
       color: #333;
-      line-height: 1.6;
-      padding-bottom: 100px;
+      text-align: center;
     }
-
     header {
-      background-color: #ff4500;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+      background-color: #007BFF;
+      color: white;
+      padding: 15px;
+      font-size: 1.2em;
     }
-
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 10px;
+    h2 {
+      color: #004080;
+      margin-top: 20px;
     }
-
-    header p a {
-      color: yellow;
-      font-weight: bold;
-      text-decoration: none;
+    h3 {
+      color: #ff4500;
+      margin-top: -10px;
     }
-
-    h2, h3 {
-      text-align: center;
-      margin: 15px 0;
-    }
-
     .produtos {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px;
       gap: 20px;
-      padding: 0 10px;
     }
-
     .card {
-      background-color: #fff;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      width: 280px;
-      padding: 20px;
-      text-align: center;
-      transition: transform 0.3s;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 15px;
+      width: 250px;
     }
-
-    .card:hover {
-      transform: translateY(-5px);
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
     }
-
     .preco {
       margin: 10px 0;
-      font-size: 1.1rem;
+      font-size: 1.1em;
     }
-
     .btn {
       display: inline-block;
-      background-color: #25d366;
-      color: #fff;
-      padding: 10px 20px;
+      padding: 10px 15px;
       margin-top: 10px;
-      border-radius: 50px;
+      background: #007BFF;
+      color: white;
       text-decoration: none;
+      border-radius: 8px;
       font-weight: bold;
-      transition: background-color 0.3s;
     }
-
     .btn:hover {
-      background-color: #128c7e;
+      background: #0056b3;
     }
-
-    .info {
-      background-color: #fff3cd;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .info h3 {
-      margin-bottom: 10px;
-    }
-
-    .destaque {
-      font-weight: bold;
-    }
-
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: #fff;
-      padding: 15px 20px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-      z-index: 1000;
-      transition: background-color 0.3s;
-    }
-
-    .whatsapp-float:hover {
-      background-color: #128c7e;
-    }
-
     footer {
-      background-color: #ff4500;
-      color: #fff;
-      text-align: center;
-      padding: 15px 10px;
+      background: #007BFF;
+      color: white;
+      padding: 10px;
       margin-top: 20px;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 768px) {
-      .produtos {
-        flex-direction: column;
-        align-items: center;
-      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🔥 Moriyah GV Gás 🔥</h1>
-    <p>📱 Peça seu gás agora pelo WhatsApp: 
-      <a href="https://wa.me/5531981043000"><strong>31 98104-3000</strong></a>
-    </p>
+    📱 Peça seu gás agora pelo WhatsApp: 
+    <a href="https://wa.me/5531981043000" style="color: yellow; text-decoration: none;">
+      31 98104-3000
+    </a>
   </header>
 
-  <h2>Nossos Botijões</h2>
+  <h2>Nossos Produtos</h2>
   <h3>🔥 Promoção da Semana 🔥</h3>
 
   <div class="produtos">
     <div class="card">
-      <h3>⛽ Liquigás 13kg</h3>
+      <h3>Liquigás 13kg</h3>
+      <img src="https://i.ibb.co/ZBJxHSG/liquigas.jpg" alt="Botijão Liquigás 13kg">
       <p class="preco">💵 Dinheiro/Pix: <b>R$ 104,99</b></p>
       <p class="preco">💳 Cartão: <b>R$ 109,99</b></p>
-      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Liquigás%2013kg">📲 Pedir agora</a>
+      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Liquigás%2013kg">➡️📱 Pedir agora</a>
     </div>
 
     <div class="card">
-      <h3>🔥 Supergás Brás 13kg</h3>
+      <h3>Supergás Brás 13kg</h3>
+      <img src="https://i.ibb.co/bPv6Ky5/supergas.jpg" alt="Botijão Supergás Brás 13kg">
       <p class="preco">💵 Dinheiro/Pix: <b>R$ 115,00</b></p>
       <p class="preco">💳 Cartão: <b>R$ 120,00</b></p>
-      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Supergás%20Brás%2013kg">📲 Pedir agora</a>
+      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Supergás%20Brás%2013kg">➡️📱 Pedir agora</a>
+    </div>
+
+    <div class="card">
+      <h3>Galão de Água Ingá</h3>
+      <img src="https://i.ibb.co/3m6tNwH/galao-agua.jpg" alt="Galão de Água Ingá">
+      <p class="preco">💵 Dinheiro/Pix: <b>R$ 14,99</b></p>
+      <p class="preco">💳 Cartão: <b>R$ 17,99</b></p>
+      <a class="btn" href="https://wa.me/5531981043000?text=Quero%20comprar%20um%20Galão%20de%20Água%20Ingá">➡️📱 Pedir agora</a>
     </div>
   </div>
 
-  <div class="info">
-    <h3>ℹ️ Informações Importantes</h3>
-    <p>⛟ <span class="destaque">Entregas rápidas</span> em toda a região</p>
-    <p>⏰ <span class="destaque">Horário de funcionamento:</span></p>
-    <p>Segunda a Sexta: 7h30 às 21h</p>
-    <p>Sábado: 7h30 às 19h</p>
-    <p>Domingo: 7h30 às 14h</p>
-    <p>📍 <span class="destaque">Endereço:</span> Rua Pedra Negra, 28 - Santa Maria, Vespasiano</p>
-  </div>
-
-  <a class="whatsapp-float" href="https://wa.me/5531981043000">📲 Peça pelo WhatsApp</a>
-
   <footer>
-    <p>🎉 Obrigado por escolher a <b>Moriyah GV Gás</b>!</p>
-    <p>Estamos sempre aqui para você ❤</p>
-    <p>© 2023 Moriyah GV Gás - Todos os direitos reservados</p>
+    🎉 Obrigado por escolher a <b>Moriyah GV Gás</b>!  
+    <br>Estamos sempre aqui para você ❤
+    <p>📍 Rua Pedra Negra, 28 - Santa Maria, Vespasiano</p>
+    <p>⏰ Seg-Sex: 7h30 às 21h | Sáb: 7h30 às 19h | Dom: 7h30 às 14h</p>
   </footer>
 </body>
 </html>
